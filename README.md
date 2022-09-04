@@ -13,8 +13,6 @@
 
 </div>
 
----
-<br />
 
 ## 📝 Índice
 - [Desafio](#desafio)
