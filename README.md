@@ -1,46 +1,117 @@
-# Getting Started with Create React App
+<p align="center">
+ <img width=200px height=200px src="https://i.imgur.com/Mg9efzZ.png" alt="Project logo">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Ao (seu) REDoor</h1>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  [![GitHub Issues](https://img.shields.io/github/issues/silvamva/aoREDoor)](https://github.com/silvamva/aoREDoor/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/silvamva/aoREDoor.svg)](https://github.com/silvamva/aoREDoor/pulls)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+<br />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📝 Índice
+- [Desafio](#desafio)
+- [Ideia / Solução](#ideia)
+- [Planos Futuros](#proximos_passos)
+- [Instalação](#instalacao)
+- [Feito Com](#feito_com)
+- [Autor](#autor)
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧐 Desafio <a name = "desafio"></a>
+Desenvolver um portal de recursos educacionais digitais (RED) fictício utilizando o padrão PWA (Progressive WebApp).
+```md
+#### Catálogo
+Para cada recurso educacional deve ter as seguintes informações:
++ Imagem de capa do RED;
++ Nome do RED;
++ Descrição;
++ Autor;
++ Categoria;
++ Link para acessar o RED;
++ Palavras chaves
++ Página de detalhes para cada RED
 
-### `npm run build`
+#### Atividades
++ Adicionar pelo menos 50 RED’s exibindo 15 por página;
++ Consumir os dados: https://api.portalmec.c3sl.ufpr.br/v1/learning_objects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 Ideia / Solução <a name = "ideia"></a>
+Desenvolver um SPA (Single-page application) utilizando o virtual DOM que a biblioteca ReactJS nós prover. Inicialmente, pesquisei por inspirações no behance, dribbble, e o próprio site do portal MEC, dessa forma, entendi um pouco mais sobre as cores, temas e formas relacionadas com esse assunto. 
+<br /><br />
+Depois, comecei a prototipar utilizando o [figma](https://www.figma.com/file/j0uigsyEMLJSec7bacLxPH/AOREDOOR?node-id=0%3A1) algum rumo inicial para a cara visual da solução, então elaborei a logo do REDoor (um grande mix da logo do stackoverflow) utilizando o inkscape e figma. 
+<br /><br />
+Por fim, comecei a codificação estudando a API que era requisito consumir seus dados, e utilizei o JSON formatter para conhecer seu objetos e desenvolver as interfaces em código, também utilizei MUI para não precisar reiventar a roda com componentes de utilização consolidada.
 
-### `npm run eject`
+<br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🚀 Próximos Passos <a name = "proximos_passos"></a>
+```md
++ Adicionar API Context para fazer cache dos dados da API
++ Adicionar mais Unit Test
++ Verificar melhorias sugeridas pelo Lighthouse
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Pré-requisitos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+Node.js v16.15.0
+```
 
-## Learn More
+<br />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Instalação <a name = "instalacao"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+## Cloning the repository
+git clone https://gitlab.cin.ufpe.br/devcin/intranet/graduate-management/graduate-management-front.git
+
+## Entering the directory
+cd graduate-management-front
+
+## Installing the npm dependencies
+npm install
+
+## Starting the project (development environment)
+npm start
+```
+
+```
+## Building the project (production environment)
+npm run build
+
+## Entering the directory
+cd build
+
+## Starting the project (production environment)
+npx serve
+```
+
+<br />
+
+## ⛏️ Feito Com <a name = "feito_com"></a>
+- [MUI](https://www.mongodb.com/) - Suite of UI Tools
+- [ReactJS](https://expressjs.com/) - JavaScript library for building user interfaces 
+- [Typescript](https://vuejs.org/) - JavaScript With Syntax For Types.
+- [NodeJs](https://nodejs.org/en/) - JavaScript Runtime
+
+<br />
+
+## ✍️ Autor <a name = "autor"></a>
+- [@Matheus Silva](https://www.linkedin.com/in/matheusvasilva/) - Front-end Engineer
+
+<br />
